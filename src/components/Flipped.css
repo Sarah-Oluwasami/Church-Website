@@ -1,0 +1,43 @@
+/*  flex fixed top-0 z-10 opacity-95 w-full bg-stone-700  justify-between  justify-items-center  items-center */
+
+.flip-grid {
+  display: flex;
+  /* width: 65%; */
+  margin: auto;
+}
+.flip-container {
+  width: 100%;
+  height: 200px;
+  margin: auto;
+}
+
+.flipper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.front,
+.back {
+  /* border-right: 1px solid rgb(231, 227, 227); */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  text-align: center;
+}
+
+.front {
+  display: flex;
+  justify-content: center;
+}
+
+.back {
+  background-color: rgb(249, 246, 246);
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
