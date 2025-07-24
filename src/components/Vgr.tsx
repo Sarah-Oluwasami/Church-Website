@@ -47,8 +47,8 @@ const Vgr: React.FC = () => {
           </span>
           <blockquote className="ml-20 max-sm:ml-14">
             <p className="text-2xl  font-[Cambria] text-zinc-800 leading-8 pb-4">
-              Our Religion is not a history. It's a living fact; it's a living
-              God; it's a living experience.
+              Our Religion is not a history. It&apos;s a living fact; it&apos;s a living
+              God; it&apos;s a living experience.
             </p>
             <span className="pr-3">
               <FontAwesomeIcon icon={faMinus} className="icon text-[#c2a95f]" />
@@ -78,7 +78,7 @@ const Vgr: React.FC = () => {
               charge. Since 1980, we have printed and distributed about 195
               million books, 8.6 million cassette tapes, and an almost
               innumerable amount of sermons in MP3 and M4A format. We have now
-              translated Brother Branham's Message into more than 70 languages,
+              translated Brother Branham&apos;s Message into more than 70 languages,
               and there are over 7,700 foreign translated sermons available.
               More than 13,000 Hero Tablets and 40,000 Agapao Tablets had been
               distributed by the end of 2020.

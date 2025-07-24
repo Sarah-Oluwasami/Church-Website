@@ -1,4 +1,4 @@
-import Link from "next/link"; // Use Next.js's Link
+import Link from "next/link"; // Use Next.js Link
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
 import { faMinus } from "@fortawesome/free-solid-svg-icons";
@@ -75,7 +75,7 @@ const Branham: React.FC = () => {
                 revival had begun.
               </p>
               <p className="py-4">
-                <i>Brother Branham's</i> ministry marked the greatest outpouring
+                <i>Brother Branham&apos;s</i> ministry marked the greatest outpouring
                 of the Holy Spirit since the day of Pentecost. Hundreds of
                 thousands attended the Branham campaigns. Thousands were healed
                 in the Name of the Lord Jesus Christ. Other evangelists such as
@@ -85,7 +85,7 @@ const Branham: React.FC = () => {
                 healing hand of Jesus Christ had once again touched His people.
               </p>
               <p>
-                <i>Brother Branham's</i> ministry had no equal. He proved that
+                <i>Brother Branham&apos;s</i> ministry had no equal. He proved that
                 Jesus Christ is as alive today as He was when He walked the
                 shores of Galilee. Like the apostle Paul, <i>Brother Branham</i>{" "}
                 showed that the Gospel is not in word only, but also in power!

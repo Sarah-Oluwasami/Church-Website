@@ -1,5 +1,5 @@
 import Link from "next/link"; // Use Next.js's Link
-// import Image from "next/image";
+import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
@@ -25,11 +25,14 @@ const Contact: React.FC = () => {
       </nav>
 
       <section className="w-[79%] flex max-xl:flex-col space-y-10 m-auto space-x-10 my-20 font-[Cambria] ">
-        <img
-          src="/images/contact-img.jpg"
-          alt=""
-          className="w-96 max-xl:w-full shadow-2xl rounded-2xl object-fit"
-        />
+            <Image
+        src="/images/contact-img.jpg"
+        alt="Contact image"
+        width={384} // w-96 = 384px
+        height={256} // adjust as needed
+        className="max-xl:w-full shadow-2xl rounded-2xl object-cover"
+      />
+
         <div className="border-b-2 border-zinc-400">
           <h1 className="font-bold text-3xl pb-4 text-zinc-800">
             Contact Information

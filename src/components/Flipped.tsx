@@ -68,12 +68,14 @@ interface Back {
           >
             {/* Front Side */}
             <div className="front max-md:border-b-[1px] md:border-r-[1px] border-zinc-300">
-              <img
-                src={item.image}
-                alt={`Service ${index + 1}`}
-                
-                className=" w-32 object-fit  items-center m-auto "
-              />
+            <Image
+              src={item.image}
+              alt={`Service ${index + 1}`}
+              width={128} // or any width in px
+              height={128}
+              className="object-contain m-auto"
+            />
+
             </div>
 
             {/* Back Side */}
